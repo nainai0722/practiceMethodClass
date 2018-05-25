@@ -443,7 +443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9CSDJQMXG;
-				INFOPLIST_FILE = practiceMethodProperty0528/Info.plist;
+				INFOPLIST_FILE = practiceMethodClass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9CSDJQMXG;
-				INFOPLIST_FILE = practiceMethodProperty0528/Info.plist;
+				INFOPLIST_FILE = practiceMethodClass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,7 +477,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9CSDJQMXG;
-				INFOPLIST_FILE = practiceMethodProperty0528Tests/Info.plist;
+				INFOPLIST_FILE = practiceMethodClassTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -496,7 +496,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9CSDJQMXG;
-				INFOPLIST_FILE = practiceMethodProperty0528Tests/Info.plist;
+				INFOPLIST_FILE = practiceMethodClassTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -514,7 +514,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9CSDJQMXG;
-				INFOPLIST_FILE = practiceMethodProperty0528UITests/Info.plist;
+				INFOPLIST_FILE = practiceMethodClassUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -532,7 +532,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9CSDJQMXG;
-				INFOPLIST_FILE = practiceMethodProperty0528UITests/Info.plist;
+				INFOPLIST_FILE = practiceMethodClassUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
