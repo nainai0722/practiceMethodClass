@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		183B229E20BAEFFA00B63318 /* image in Resources */ = {isa = PBXBuildFile; fileRef = 183B229D20BAEFFA00B63318 /* image */; };
-		183B229F20BAEFFA00B63318 /* image in Resources */ = {isa = PBXBuildFile; fileRef = 183B229D20BAEFFA00B63318 /* image */; };
-		183B22A020BAEFFA00B63318 /* image in Resources */ = {isa = PBXBuildFile; fileRef = 183B229D20BAEFFA00B63318 /* image */; };
+		183B22A220BAF26700B63318 /* test0001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183B22A120BAF26600B63318 /* test0001.jpg */; };
+		183B22A320BAF26700B63318 /* test0001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183B22A120BAF26600B63318 /* test0001.jpg */; };
+		183B22A420BAF26700B63318 /* test0001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 183B22A120BAF26600B63318 /* test0001.jpg */; };
 		183F66E720B5A0D800CE5C0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F66E520B5A0D800CE5C0F /* ViewController.m */; };
 		183F66E820B5A0D800CE5C0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F66E520B5A0D800CE5C0F /* ViewController.m */; };
 		183F66E920B5A0D800CE5C0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F66E520B5A0D800CE5C0F /* ViewController.m */; };
@@ -48,7 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		183B229D20BAEFFA00B63318 /* image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = image; sourceTree = "<group>"; };
+		183B22A120BAF26600B63318 /* test0001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test0001.jpg; path = practiceMethodClass/image/test0001.jpg; sourceTree = SOURCE_ROOT; };
 		183F66E420B5A0D800CE5C0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		183F66E520B5A0D800CE5C0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		183F66E620B5A0D800CE5C0F /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
@@ -95,10 +95,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183B22A520BAF28A00B63318 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				183B22A120BAF26600B63318 /* test0001.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		18413E4220B57F550049E7E9 = {
 			isa = PBXGroup;
 			children = (
-				183B229D20BAEFFA00B63318 /* image */,
 				18413E4D20B57F550049E7E9 /* practiceMethodClass */,
 				18413E6620B57F590049E7E9 /* practiceMethodClassTests */,
 				18413E7120B57F5A0049E7E9 /* practiceMethodClassUITests */,
@@ -119,6 +126,7 @@
 		18413E4D20B57F550049E7E9 /* practiceMethodClass */ = {
 			isa = PBXGroup;
 			children = (
+				183B22A520BAF28A00B63318 /* image */,
 				18413E4E20B57F550049E7E9 /* AppDelegate.h */,
 				18413E4F20B57F550049E7E9 /* AppDelegate.m */,
 				18413E5720B57F590049E7E9 /* Assets.xcassets */,
@@ -257,7 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18413E5B20B57F590049E7E9 /* LaunchScreen.storyboard in Resources */,
-				183B229E20BAEFFA00B63318 /* image in Resources */,
+				183B22A220BAF26700B63318 /* test0001.jpg in Resources */,
 				18FC327920BABF6F00B504B5 /* originalView.xib in Resources */,
 				183F66EA20B5A0D800CE5C0F /* ViewController.xib in Resources */,
 				18413E5820B57F590049E7E9 /* Assets.xcassets in Resources */,
@@ -268,7 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183B229F20BAEFFA00B63318 /* image in Resources */,
+				183B22A320BAF26700B63318 /* test0001.jpg in Resources */,
 				18FC327A20BABF6F00B504B5 /* originalView.xib in Resources */,
 				183F66EB20B5A0D800CE5C0F /* ViewController.xib in Resources */,
 			);
@@ -278,7 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183B22A020BAEFFA00B63318 /* image in Resources */,
+				183B22A420BAF26700B63318 /* test0001.jpg in Resources */,
 				18FC327B20BABF6F00B504B5 /* originalView.xib in Resources */,
 				183F66EC20B5A0D800CE5C0F /* ViewController.xib in Resources */,
 			);
