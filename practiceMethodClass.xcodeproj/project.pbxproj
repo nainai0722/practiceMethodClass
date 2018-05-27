@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183B229E20BAEFFA00B63318 /* image in Resources */ = {isa = PBXBuildFile; fileRef = 183B229D20BAEFFA00B63318 /* image */; };
+		183B229F20BAEFFA00B63318 /* image in Resources */ = {isa = PBXBuildFile; fileRef = 183B229D20BAEFFA00B63318 /* image */; };
+		183B22A020BAEFFA00B63318 /* image in Resources */ = {isa = PBXBuildFile; fileRef = 183B229D20BAEFFA00B63318 /* image */; };
 		183F66E720B5A0D800CE5C0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F66E520B5A0D800CE5C0F /* ViewController.m */; };
 		183F66E820B5A0D800CE5C0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F66E520B5A0D800CE5C0F /* ViewController.m */; };
 		183F66E920B5A0D800CE5C0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F66E520B5A0D800CE5C0F /* ViewController.m */; };
@@ -19,9 +22,12 @@
 		18413E5E20B57F590049E7E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18413E5D20B57F590049E7E9 /* main.m */; };
 		18413E6820B57F5A0049E7E9 /* practiceMethodProperty0528Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18413E6720B57F5A0049E7E9 /* practiceMethodProperty0528Tests.m */; };
 		18413E7320B57F5A0049E7E9 /* practiceMethodProperty0528UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18413E7220B57F5A0049E7E9 /* practiceMethodProperty0528UITests.m */; };
-		18D53C5620B8249900A8CCE6 /* image in Resources */ = {isa = PBXBuildFile; fileRef = 18D53C5520B8249900A8CCE6 /* image */; };
-		18D53C5720B8249900A8CCE6 /* image in Resources */ = {isa = PBXBuildFile; fileRef = 18D53C5520B8249900A8CCE6 /* image */; };
-		18D53C5820B8249900A8CCE6 /* image in Resources */ = {isa = PBXBuildFile; fileRef = 18D53C5520B8249900A8CCE6 /* image */; };
+		18FC327520BABF5B00B504B5 /* originalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC327420BABF5A00B504B5 /* originalView.m */; };
+		18FC327620BABF5B00B504B5 /* originalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC327420BABF5A00B504B5 /* originalView.m */; };
+		18FC327720BABF5B00B504B5 /* originalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC327420BABF5A00B504B5 /* originalView.m */; };
+		18FC327920BABF6F00B504B5 /* originalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FC327820BABF6F00B504B5 /* originalView.xib */; };
+		18FC327A20BABF6F00B504B5 /* originalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FC327820BABF6F00B504B5 /* originalView.xib */; };
+		18FC327B20BABF6F00B504B5 /* originalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FC327820BABF6F00B504B5 /* originalView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183B229D20BAEFFA00B63318 /* image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = image; sourceTree = "<group>"; };
 		183F66E420B5A0D800CE5C0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		183F66E520B5A0D800CE5C0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		183F66E620B5A0D800CE5C0F /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
@@ -58,7 +65,9 @@
 		18413E6E20B57F5A0049E7E9 /* practiceMethodClassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practiceMethodClassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18413E7220B57F5A0049E7E9 /* practiceMethodProperty0528UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = practiceMethodProperty0528UITests.m; sourceTree = "<group>"; };
 		18413E7420B57F5A0049E7E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D53C5520B8249900A8CCE6 /* image */ = {isa = PBXFileReference; lastKnownFileType = folder; name = image; path = practiceMethodClass/image; sourceTree = "<group>"; };
+		18FC327320BABF5A00B504B5 /* originalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = originalView.h; sourceTree = "<group>"; };
+		18FC327420BABF5A00B504B5 /* originalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = originalView.m; sourceTree = "<group>"; };
+		18FC327820BABF6F00B504B5 /* originalView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = originalView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +98,7 @@
 		18413E4220B57F550049E7E9 = {
 			isa = PBXGroup;
 			children = (
-				18D53C5520B8249900A8CCE6 /* image */,
+				183B229D20BAEFFA00B63318 /* image */,
 				18413E4D20B57F550049E7E9 /* practiceMethodClass */,
 				18413E6620B57F590049E7E9 /* practiceMethodClassTests */,
 				18413E7120B57F5A0049E7E9 /* practiceMethodClassUITests */,
@@ -118,6 +127,9 @@
 				183F66E420B5A0D800CE5C0F /* ViewController.h */,
 				183F66E520B5A0D800CE5C0F /* ViewController.m */,
 				183F66E620B5A0D800CE5C0F /* ViewController.xib */,
+				18FC327320BABF5A00B504B5 /* originalView.h */,
+				18FC327420BABF5A00B504B5 /* originalView.m */,
+				18FC327820BABF6F00B504B5 /* originalView.xib */,
 				18413E5D20B57F590049E7E9 /* main.m */,
 			);
 			path = practiceMethodClass;
@@ -244,8 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D53C5620B8249900A8CCE6 /* image in Resources */,
 				18413E5B20B57F590049E7E9 /* LaunchScreen.storyboard in Resources */,
+				183B229E20BAEFFA00B63318 /* image in Resources */,
+				18FC327920BABF6F00B504B5 /* originalView.xib in Resources */,
 				183F66EA20B5A0D800CE5C0F /* ViewController.xib in Resources */,
 				18413E5820B57F590049E7E9 /* Assets.xcassets in Resources */,
 			);
@@ -255,7 +268,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D53C5720B8249900A8CCE6 /* image in Resources */,
+				183B229F20BAEFFA00B63318 /* image in Resources */,
+				18FC327A20BABF6F00B504B5 /* originalView.xib in Resources */,
 				183F66EB20B5A0D800CE5C0F /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +278,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D53C5820B8249900A8CCE6 /* image in Resources */,
+				183B22A020BAEFFA00B63318 /* image in Resources */,
+				18FC327B20BABF6F00B504B5 /* originalView.xib in Resources */,
 				183F66EC20B5A0D800CE5C0F /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				183F66E720B5A0D800CE5C0F /* ViewController.m in Sources */,
+				18FC327520BABF5B00B504B5 /* originalView.m in Sources */,
 				18413E5E20B57F590049E7E9 /* main.m in Sources */,
 				18413E5020B57F550049E7E9 /* AppDelegate.m in Sources */,
 			);
@@ -286,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FC327620BABF5B00B504B5 /* originalView.m in Sources */,
 				183F66E820B5A0D800CE5C0F /* ViewController.m in Sources */,
 				18413E6820B57F5A0049E7E9 /* practiceMethodProperty0528Tests.m in Sources */,
 			);
@@ -295,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FC327720BABF5B00B504B5 /* originalView.m in Sources */,
 				183F66E920B5A0D800CE5C0F /* ViewController.m in Sources */,
 				18413E7320B57F5A0049E7E9 /* practiceMethodProperty0528UITests.m in Sources */,
 			);
@@ -448,7 +466,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Nainai0722.practiceMethodProperty0528;
+				PRODUCT_BUNDLE_IDENTIFIER = Nainai0722.practiceMethodClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -465,7 +483,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Nainai0722.practiceMethodProperty0528;
+				PRODUCT_BUNDLE_IDENTIFIER = Nainai0722.practiceMethodClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

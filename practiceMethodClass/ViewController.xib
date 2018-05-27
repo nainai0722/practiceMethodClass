@@ -12,6 +12,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
             <connections>
+                <outlet property="btn1" destination="cR9-c7-cHl" id="aXG-PC-vaf"/>
+                <outlet property="btn2" destination="neM-Qd-W80" id="kuc-aI-Ypz"/>
+                <outlet property="btn3" destination="ei8-QL-jFI" id="IIR-9s-IYu"/>
+                <outlet property="btn4" destination="1oO-b5-4hP" id="BHS-yw-dhN"/>
+                <outlet property="originalView" destination="E1I-r3-9aY" id="Dix-ts-IGD"/>
+                <outlet property="textFiledView" destination="xmm-Zu-11X" id="CKA-BI-kHg"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,7 +26,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_5389.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uaa-vH-LXB">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test0001.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uaa-vH-LXB">
                     <rect key="frame" x="0.0" y="20" width="375" height="245"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="245" id="a5i-l6-6nQ"/>
@@ -40,32 +46,53 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ei8-QL-jFI">
                             <rect key="frame" x="187.5" y="0.0" width="94" height="60"/>
                             <state key="normal" title="Button3"/>
+                            <connections>
+                                <action selector="touchBtn3:" destination="-1" eventType="touchUpInside" id="GJz-8N-1H0"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1oO-b5-4hP">
                             <rect key="frame" x="281.5" y="0.0" width="93.5" height="60"/>
                             <state key="normal" title="Button4"/>
+                            <connections>
+                                <action selector="touchBtn4:" destination="-1" eventType="touchUpInside" id="cTe-hz-4iv"/>
+                            </connections>
                         </button>
                     </subviews>
                     <constraints>
                         <constraint firstAttribute="height" constant="60" id="36R-Nu-boi"/>
                     </constraints>
                 </stackView>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xmm-Zu-11X">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1I-r3-9aY" customClass="originalView">
                     <rect key="frame" x="0.0" y="333" width="375" height="334"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="375" id="57X-J8-hUB"/>
+                        <constraint firstAttribute="height" constant="334" id="xVO-71-fd9"/>
+                    </constraints>
+                </view>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xmm-Zu-11X">
+                    <rect key="frame" x="0.0" y="333" width="375" height="334"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="375" id="MWk-Uk-YjH"/>
+                        <constraint firstAttribute="height" constant="334" id="g5Q-Uq-hlV"/>
+                    </constraints>
                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="0mk-YU-RSb" firstAttribute="top" secondItem="uaa-vH-LXB" secondAttribute="bottom" id="0S8-ZU-pIB"/>
+                <constraint firstItem="xmm-Zu-11X" firstAttribute="leading" secondItem="0mk-YU-RSb" secondAttribute="leading" id="1On-L8-tDB"/>
+                <constraint firstItem="xmm-Zu-11X" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="166.5" id="8ug-5w-afi"/>
                 <constraint firstItem="uaa-vH-LXB" firstAttribute="trailing" secondItem="0mk-YU-RSb" secondAttribute="trailing" id="Gb4-zj-216"/>
                 <constraint firstItem="0mk-YU-RSb" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Hho-6s-dEi"/>
+                <constraint firstItem="E1I-r3-9aY" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="b6U-r0-Vtv"/>
                 <constraint firstItem="0mk-YU-RSb" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="oqy-Jz-Gq0"/>
                 <constraint firstItem="uaa-vH-LXB" firstAttribute="leading" secondItem="0mk-YU-RSb" secondAttribute="leading" id="pJ1-Tb-Wiu"/>
+                <constraint firstItem="E1I-r3-9aY" firstAttribute="leading" secondItem="0mk-YU-RSb" secondAttribute="leading" id="v01-NK-ZUd"/>
                 <constraint firstItem="uaa-vH-LXB" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="xdP-XA-6dL"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
@@ -73,6 +100,6 @@
         </view>
     </objects>
     <resources>
-        <image name="IMG_5389.jpg" width="3264" height="2448"/>
+        <image name="test0001.jpg" width="768" height="1024"/>
     </resources>
 </document>
