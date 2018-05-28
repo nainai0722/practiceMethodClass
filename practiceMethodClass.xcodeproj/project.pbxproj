@@ -22,6 +22,12 @@
 		18413E5E20B57F590049E7E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18413E5D20B57F590049E7E9 /* main.m */; };
 		18413E6820B57F5A0049E7E9 /* practiceMethodProperty0528Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18413E6720B57F5A0049E7E9 /* practiceMethodProperty0528Tests.m */; };
 		18413E7320B57F5A0049E7E9 /* practiceMethodProperty0528UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18413E7220B57F5A0049E7E9 /* practiceMethodProperty0528UITests.m */; };
+		187DF75A20BC556200EA6807 /* originalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DF75920BC556200EA6807 /* originalTableView.m */; };
+		187DF75B20BC556200EA6807 /* originalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DF75920BC556200EA6807 /* originalTableView.m */; };
+		187DF75C20BC556200EA6807 /* originalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DF75920BC556200EA6807 /* originalTableView.m */; };
+		187DF75E20BC557500EA6807 /* originalTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187DF75D20BC557500EA6807 /* originalTableView.xib */; };
+		187DF75F20BC557500EA6807 /* originalTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187DF75D20BC557500EA6807 /* originalTableView.xib */; };
+		187DF76020BC557500EA6807 /* originalTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187DF75D20BC557500EA6807 /* originalTableView.xib */; };
 		18FC327520BABF5B00B504B5 /* originalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC327420BABF5A00B504B5 /* originalView.m */; };
 		18FC327620BABF5B00B504B5 /* originalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC327420BABF5A00B504B5 /* originalView.m */; };
 		18FC327720BABF5B00B504B5 /* originalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC327420BABF5A00B504B5 /* originalView.m */; };
@@ -65,6 +71,9 @@
 		18413E6E20B57F5A0049E7E9 /* practiceMethodClassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practiceMethodClassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18413E7220B57F5A0049E7E9 /* practiceMethodProperty0528UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = practiceMethodProperty0528UITests.m; sourceTree = "<group>"; };
 		18413E7420B57F5A0049E7E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187DF75820BC556200EA6807 /* originalTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = originalTableView.h; sourceTree = "<group>"; };
+		187DF75920BC556200EA6807 /* originalTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = originalTableView.m; sourceTree = "<group>"; };
+		187DF75D20BC557500EA6807 /* originalTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = originalTableView.xib; path = ../originalTableView.xib; sourceTree = "<group>"; };
 		18FC327320BABF5A00B504B5 /* originalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = originalView.h; sourceTree = "<group>"; };
 		18FC327420BABF5A00B504B5 /* originalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = originalView.m; sourceTree = "<group>"; };
 		18FC327820BABF6F00B504B5 /* originalView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = originalView.xib; sourceTree = "<group>"; };
@@ -138,6 +147,9 @@
 				18FC327320BABF5A00B504B5 /* originalView.h */,
 				18FC327420BABF5A00B504B5 /* originalView.m */,
 				18FC327820BABF6F00B504B5 /* originalView.xib */,
+				187DF75820BC556200EA6807 /* originalTableView.h */,
+				187DF75920BC556200EA6807 /* originalTableView.m */,
+				187DF75D20BC557500EA6807 /* originalTableView.xib */,
 				18413E5D20B57F590049E7E9 /* main.m */,
 			);
 			path = practiceMethodClass;
@@ -268,6 +280,7 @@
 				183B22A220BAF26700B63318 /* test0001.jpg in Resources */,
 				18FC327920BABF6F00B504B5 /* originalView.xib in Resources */,
 				183F66EA20B5A0D800CE5C0F /* ViewController.xib in Resources */,
+				187DF75E20BC557500EA6807 /* originalTableView.xib in Resources */,
 				18413E5820B57F590049E7E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +291,7 @@
 			files = (
 				183B22A320BAF26700B63318 /* test0001.jpg in Resources */,
 				18FC327A20BABF6F00B504B5 /* originalView.xib in Resources */,
+				187DF75F20BC557500EA6807 /* originalTableView.xib in Resources */,
 				183F66EB20B5A0D800CE5C0F /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +302,7 @@
 			files = (
 				183B22A420BAF26700B63318 /* test0001.jpg in Resources */,
 				18FC327B20BABF6F00B504B5 /* originalView.xib in Resources */,
+				187DF76020BC557500EA6807 /* originalTableView.xib in Resources */,
 				183F66EC20B5A0D800CE5C0F /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +317,7 @@
 				183F66E720B5A0D800CE5C0F /* ViewController.m in Sources */,
 				18FC327520BABF5B00B504B5 /* originalView.m in Sources */,
 				18413E5E20B57F590049E7E9 /* main.m in Sources */,
+				187DF75A20BC556200EA6807 /* originalTableView.m in Sources */,
 				18413E5020B57F550049E7E9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +328,7 @@
 			files = (
 				18FC327620BABF5B00B504B5 /* originalView.m in Sources */,
 				183F66E820B5A0D800CE5C0F /* ViewController.m in Sources */,
+				187DF75B20BC556200EA6807 /* originalTableView.m in Sources */,
 				18413E6820B57F5A0049E7E9 /* practiceMethodProperty0528Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +339,7 @@
 			files = (
 				18FC327720BABF5B00B504B5 /* originalView.m in Sources */,
 				183F66E920B5A0D800CE5C0F /* ViewController.m in Sources */,
+				187DF75C20BC556200EA6807 /* originalTableView.m in Sources */,
 				18413E7320B57F5A0049E7E9 /* practiceMethodProperty0528UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
